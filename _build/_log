@@ -1,0 +1,10 @@
+### Starting build.
+# Target: projet.ml.depends, tags: { extension:ml, file:projet.ml, ocaml, ocamldep, quiet }
+/usr/bin/ocamldep -modules projet.ml > projet.ml.depends
+# Target: projet.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:projet.cmo, file:projet.ml, implem, ocaml, quiet }
+/usr/bin/ocamlc -c -o projet.cmo projet.ml
+# Target: projet.cmx, tags: { compile, extension:cmx, extension:ml, file:projet.cmx, file:projet.ml, implem, native, ocaml, quiet }
+/usr/bin/ocamlopt -c -o projet.cmx projet.ml
+# Target: projet.native, tags: { dont_link_with, extension:native, file:projet.native, link, native, ocaml, program, quiet }
+/usr/bin/ocamlopt graphics.cmxa projet.cmx -o projet.native
+# Compilation successful.

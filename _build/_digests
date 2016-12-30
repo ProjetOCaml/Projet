@@ -1,0 +1,5 @@
+"Rule: ocaml: cmx* & o* -> native (%=projet )": "\138\020\019\137\206\197\011\143Gx\243\173\146\138TZ"
+"Rule: ocaml: ml & cmi -> cmx & o (%=projet )": " _.\028S\173C\029\204\251\254\022\182\195\239\216"
+"Rule: ocaml: ml -> cmo & cmi (%=projet )": "\242\224\n\229A\130\226\207\165\190\229P\028%\232\""
+"Rule: ocaml dependencies ml (%=projet )": "\148&3\127t\227\169\218\179\006zQ\031.\146\169"
+"Resource: /home/gaelle/Documents/Projets/Voronoi/projet.ml": "\140e:\018\143\145\241\140\234\236#X\202\195H\005"
